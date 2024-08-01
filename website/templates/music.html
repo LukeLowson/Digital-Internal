@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Changed{% endblock %}
+
+{% block content %}
+<h1>Upload a file</h1>
+<form method="post">
+    <label for="file">File</label>
+    <input id="file" name="file" type="file" />
+    <br /><br />
+    <button>Upload</button>
+</form>
+
+{% endblock %}
